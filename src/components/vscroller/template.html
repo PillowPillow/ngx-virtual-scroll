@@ -1,0 +1,5 @@
+<div class="total-padding" [style.height.px]="scrollHeight"></div>
+
+<div class="scrollable-content" #container [style.transform]="'translateY(' + topPadding + 'px)'">
+	<ng-content></ng-content>
+</div>

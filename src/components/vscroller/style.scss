@@ -1,0 +1,19 @@
+:host {
+	overflow: auto;
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	height: 1px;
+}
+
+.scrollable-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.total-padding {
+	width: 1px;
+	opacity: 0;
+}

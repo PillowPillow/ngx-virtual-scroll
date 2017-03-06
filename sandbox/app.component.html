@@ -1,0 +1,3 @@
+<vscroller [items]="items" (bufferChange)="buffer=$event" (fetch)="fetch($event)">
+	<section *ngFor="let item of buffer" class="item">{{ item }}</section>
+</vscroller>
