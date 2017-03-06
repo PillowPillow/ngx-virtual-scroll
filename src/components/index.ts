@@ -1,9 +1,9 @@
-import {VScrollerComponent} from './vscroller/component';
+import {VScrollComponent} from './vscroll/component';
 
 export const COMPONENTS = [
-	VScrollerComponent
+	VScrollComponent
 ];
 
 export const COMPONENTS_TO_EXPORT = [
-	VScrollerComponent
+	VScrollComponent
 ];

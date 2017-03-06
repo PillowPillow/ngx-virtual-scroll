@@ -9,11 +9,11 @@ import {Viewport} from '../../interfaces/viewport';
 import {ScrollDirection} from '../../enums/scrollDirection';
 
 @Component({
-	selector: 'vscroller, [vscroller]',
+	selector: 'v-scroll, [v-scroll]',
 	templateUrl: './template.html',
 	styleUrls: ['./style.scss'],
 })
-export class VScrollerComponent<T> implements OnInit, OnChanges, OnDestroy {
+export class VScrollComponent<T> implements OnInit, OnChanges, OnDestroy {
 
 	@Input() public items:T[] = [];
 	@Input() public itemHeight:number;

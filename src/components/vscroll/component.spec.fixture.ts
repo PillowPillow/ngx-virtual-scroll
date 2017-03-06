@@ -1,29 +1,29 @@
 import {Component, Input, ViewChildren, ViewChild, OnInit, QueryList} from '@angular/core';
-import {VScrollerComponent} from './component';
+import {VScrollComponent} from './component';
 
 @Component({
 	template: `
-		<vscroller [items]="items" 
+		<v-scroll [items]="items" 
 			(bufferChange)="buffer = $event" 
 			(vScroll)="onScroll($event)" 
 			(fetch)="fetch($event)">
 			<div class="item" #item *ngFor="let i of buffer">{{i}}</div>
-		</vscroller>
+		</v-scroll>
 	`,
 	styles: [`
 		.item {
 			height: 50px;
 		}
-		vscroller {
+		v-scroll {
 			display: block;
 			height: 100px;
 		}
 	`]
 })
-export class VScrollerDummyComponent implements OnInit {
+export class VScrollDummyComponent implements OnInit {
 	@Input() items = [];
 	@ViewChildren('item') els:QueryList<any>;
-	@ViewChild(VScrollerComponent) vscroller:VScrollerComponent<any>;
+	@ViewChild(VScrollComponent) vscroll:VScrollComponent<any>;
 
 	buffer = [];
 
