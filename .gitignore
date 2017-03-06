@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+npm-debug.log
+compiled/
+dist/
+build/
+coverage/
+release/
+.idea
+yarn.lock
+/ngx-charts.iml
+ngx-charts.iml
