@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
 
 	public ngOnInit() {
 		let items = [];
-		for(let i = 0; i<50; i++) items.push(i);
+		for(let i = 0; i<500; i++) items.push(i);
 		this.items = items;
 	}
 

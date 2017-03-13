@@ -1,7 +1,7 @@
 {
-  "name": "@polochon/ngx-virtual-scroll",
+  "name": "ngx-virtual-scroll",
   "version": "1.0.0",
-  "description": "angular tools",
+  "description": "virtual scroll for angular apps",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
   "scripts": {

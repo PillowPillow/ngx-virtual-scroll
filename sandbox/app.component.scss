@@ -1,12 +1,16 @@
-html, body {
-	margin: 0;
-	padding: 0;
+:host {
+	display: flex;
+	flex: 1;
 	height: 100%;
 }
 
-vscroller {
-	display: block;
-	height: 100px;
+v-scroll {
+	//display: block;
+	//height: 100px;
+
+	display: flex;
+	flex: 1;
+	height: 100%;
 }
 
 .item {
